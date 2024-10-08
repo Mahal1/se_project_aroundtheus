@@ -1,0 +1,32 @@
+.header{
+    display: ;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    width: 880px;
+    height: 74px;
+    top: 45px;
+    bottom: 1098px;
+    left: 200px;
+    Right: 200px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    width: 880px;
+    border: 1px solid #545454
+}
+    
+.header__logo {
+    
+    width: 173px;
+    height: 33px;
+    top: 45px;
+    Bottom: 1139px;
+    left: 200px;
+    Right: 907px;
+    background-image: url(../images/header-logo.png);
+    gap: 0px;
+    opacity: 0px;
+
+
+}

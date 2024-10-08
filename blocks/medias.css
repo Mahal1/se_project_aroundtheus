@@ -1,0 +1,16 @@
+
+/*
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile__info {
+        padding: 10px 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}

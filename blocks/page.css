@@ -1,0 +1,18 @@
+
+.page {
+    display:flex;
+    width: 1280px;
+    height: 1217px;
+    top: 1546px;
+    left: 1167px;
+    gap: 0px;
+    opacity: 0px;
+    background: #000000;
+
+}
+
+.page__content {
+   
+}
+   
+

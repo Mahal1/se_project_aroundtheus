@@ -1,0 +1,54 @@
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 880px; 
+    height: 120px; 
+    top: 159px; 
+    left: 200px; 
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    gap: 0px; 
+    opacity: 1; 
+}
+
+.profile__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile__info {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.profile__title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.profile__description {
+    font-size: 1em;
+    color: #bbb;
+}
+
+.profile__button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile__button--add {
+    font-size: 2em;
+}
