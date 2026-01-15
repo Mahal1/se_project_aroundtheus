@@ -1,54 +1,67 @@
-
 .profile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 880px; 
-    height: 120px; 
-    top: 159px; 
-    left: 200px; 
-    padding: 20px;
-    border-bottom: 1px solid #444;
-    gap: 0px; 
-    opacity: 1; 
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
 }
 
-.profile__image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 .profile__info {
-    flex-grow: 1;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
-.profile__title {
-    font-size: 1.5em;
-    font-weight: bold;
+.profile__name {
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:#fff
 }
 
-.profile__description {
-    font-size: 1em;
-    color: #bbb;
+.profile__role {
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: #ccc;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-.profile__button {
-    background: none;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    color: #fff;
-    font-size: 1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.profile__edit-button,
+.profile__add-button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
-.profile__button--add {
-    font-size: 2em;
+.profile__add-button {
+  margin-left: auto;
+}
+
+.profile__edit-button:hover,
+.profile__add-button:hover,
+.card__like-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile__add-button {
+    margin-left: 0;
+  }
 }
