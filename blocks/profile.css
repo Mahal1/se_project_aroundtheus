@@ -36,14 +36,35 @@
   -webkit-box-orient: vertical;
 }
 
-.profile__edit-button,
+
 .profile__add-button {
-  background: transparent;
-  border: 1px solid #fff;
+width: 150px;
+  height: 50px;
+  background: transparent url("../images/add-icon.svg") center no-repeat;
+  background-size: 22px;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.profile__edit-button {
   width: 24px;
   height: 24px;
+  background: transparent url("../images/edit-icon.svg") center no-repeat;
+
+  background-size: 10px 10px;
+  border: 1px solid #fff;
+  grid-area: button;
+  align-self: center;
   cursor: pointer;
+  transition: 0.3s;
+
+  padding: 0;
+  margin: 0;
 }
+
 
 .profile__add-button {
   margin-left: auto;
