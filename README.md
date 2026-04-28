@@ -60,7 +60,7 @@ The layout is centered with a maximum width of 880px.
 
 ## Live webpage link
 
-https://yourusername.github.io/se_project_aroundtheus/
+https://mahal1.github.io/se_project_aroundtheus/
 
 ------------------------------------------------------------------------
 
