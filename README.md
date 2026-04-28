@@ -1,16 +1,15 @@
 
 
-## Triple-Ten, Proyect 3, Final stage. Around the U.S.
+## Around the U.S, Proyect 3, Final stage. 
 
 Project Description
 
-Around the U.S. is a responsive web page that displays a user profile
-along with a gallery of photo cards representing different locations.
+This project is called Around the U.S., and it’s a responsive web page that shows a user profile along with a gallery of photo cards representing different locations.
 
-This project was developed as part of Sprint 3: Adaptive Web Design and
-Working with Layouts. The main goal was to build a fully responsive
-layout using modern CSS techniques and following the BEM
-(Block-Element-Modifier) methodology.
+I built this project as part of Sprint 3 at TripleTen, where the main focus was learning how to create layouts that adapt to different screen sizes. The goal wasn’t just to make it look like the Figma design, but to make it work correctly on desktop, tablet, and mobile, while keeping the code clean and organized.
+
+To do that, I used modern CSS techniques like Grid, Flexbox, and media queries, 
+and structured everything using BEM methodology, which helped me keep the project scalable and easy to maintain.
 
 ------------------------------------------------------------------------
 
@@ -26,7 +25,7 @@ layout using modern CSS techniques and following the BEM
 
 ------------------------------------------------------------------------
 
-##  Technologies Used
+##  Technologies used
 
 -   HTML5 (semantic structure)
 -   CSS3 (Flexbox, Grid, Media Queries)
@@ -38,7 +37,7 @@ layout using modern CSS techniques and following the BEM
 
 ------------------------------------------------------------------------
 
-##  Responsive Design
+##  Responsive design
 
 -   320px → 1 card per row
 -   \~768px → 2 cards per row
@@ -48,7 +47,7 @@ The layout is centered with a maximum width of 880px.
 
 ------------------------------------------------------------------------
 
-##  Project Structure
+##  Project structure
 
 -   blocks/
 -   images/
@@ -59,15 +58,15 @@ The layout is centered with a maximum width of 880px.
 
 ------------------------------------------------------------------------
 
-## Live Project
+## Live webpage link
 
 https://yourusername.github.io/se_project_aroundtheus/
 
 ------------------------------------------------------------------------
 
-The Project Video
+Arround the U.S. review video
 
-https://your-video-link.com
+https://drive.google.com/drive/folders/1rE5jHBbGHRqW2qdTJAYli6IsjQ5ecdru?usp=sharing
 
 ------------------------------------------------------------------------
 
