@@ -9,6 +9,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile__info {
@@ -71,10 +72,10 @@ width: 150px;
 }
 
 .profile__edit-button:hover,
-.profile__add-button:hover,
-.card__like-button:hover {
+.profile__add-button:hover {
   opacity: 0.6;
 }
+
 
 @media screen and (max-width: 767px) {
   .profile {
@@ -86,3 +87,4 @@ width: 150px;
     margin-left: 0;
   }
 }
+
